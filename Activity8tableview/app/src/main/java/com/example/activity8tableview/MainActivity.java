@@ -24,10 +24,13 @@ public class MainActivity extends AppCompatActivity {
                 i.putExtra("url", getResources().getString(R.string.pro2));
                 break;
             case R.id.bt3:
-                i.putExtra("url", getResources().getString(R.string.pro1));
+                i.putExtra("url", getResources().getString(R.string.pro3));
                 break;
             case R.id.bt4:
-                i.putExtra("url", getResources().getString(R.string.pro2));
+                i.putExtra("url", getResources().getString(R.string.pro4));
+                break;
+            case R.id.btn5:
+                i.putExtra("url", getResources().getString(R.string.pro5));
                 break;
         }
         startActivity(i);
